@@ -1,9 +1,7 @@
-from distutils.core import setup
-setup(name='joaobrisida',
-      version='2.0',
-      description='82292',
-      author='Your Name',
-      author_email='Your Email',
-      url='The URL project - github for example',
-      py_modules=['joaobrisida'],
-     )
+from setuptools import setup, find_packages
+setup(
+    name='joaobrisida',
+    version='5.0',
+    packages=find_packages(),
+    include_package_data=True, 
+)
